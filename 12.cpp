@@ -86,7 +86,7 @@ int main()
 	cout<<"Average: "<<av(expProb,n)+1<<" ( "<<error*100<<"% error)"<<endl;
 	
 	error=abs(var(expProb,n)-var(theoretic,n))/var(theoretic,n);
-	cout<<"Variance: "<<var(expProb,n)+1<<" ( "<<error*100<<"% error)"<<endl;
+	cout<<"Variance: "<<var(expProb,n)<<" ( "<<error*100<<"% error)"<<endl;
 	
 	double chisqr=0;
 	i=0;
